@@ -86,7 +86,7 @@ header {
   justify-content: space-between;
 
   img {
-    width: 13%;
+    width: 15%;
   }
 
   a {
@@ -465,8 +465,8 @@ footer {
 }
 
 // width: 425px
-@media (min-width: 425px)  {
-  
+@media (max-width: 425px) {
+
   // header {
   //   // img {
   //   //   // width: 50%;
@@ -523,7 +523,7 @@ footer {
 }
 
 // width: 390px
-@media (min-width: 390px) {
+@media (max-width: 390px) {
   header {
     img {
       width: 50%;

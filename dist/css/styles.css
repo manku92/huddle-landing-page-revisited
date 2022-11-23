@@ -68,7 +68,7 @@ header {
   justify-content: space-between;
 }
 header img {
-  width: 13%;
+  width: 15%;
 }
 header a {
   display: block;
@@ -364,7 +364,7 @@ footer {
     gap: 0.5rem;
   }
 }
-@media (min-width: 425px) {
+@media (max-width: 425px) {
   .showcase {
     grid-template-columns: 1fr;
     margin-top: 0;
@@ -401,7 +401,7 @@ footer {
     justify-content: center;
   }
 }
-@media (min-width: 390px) {
+@media (max-width: 390px) {
   header img {
     width: 50%;
   }
