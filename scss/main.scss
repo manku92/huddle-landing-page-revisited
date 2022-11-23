@@ -395,12 +395,12 @@ footer {
 }
 
 // width: 768px
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   header {
     justify-content: center;
 
     img {
-      width: 20%;
+      width: 40%;
     }
 
     a {
@@ -468,7 +468,7 @@ footer {
 @media (min-width: 425px) {
   header {
     img {
-      width: 30%;
+      // width: 50%;
     }
   }
 
