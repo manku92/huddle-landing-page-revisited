@@ -364,7 +364,7 @@ footer {
     gap: 0.5rem;
   }
 }
-@media (max-width: 425px) {
+@media (min-width: 425px) {
   header img {
     width: 30%;
   }
