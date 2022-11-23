@@ -461,7 +461,7 @@ footer {
 }
 
 // width: 425px
-@media (max-width: 425px) {
+@media (min-width: 425px) {
   header{
     img{
       width: 30%;
